@@ -1,0 +1,156 @@
+@media (max-width: 1200px){
+    nav{
+        margin-left: -20%;
+    }
+   
+    .home__txt__title{
+        font-size: 52px;
+    } 
+
+}
+
+@media (max-width: 1150px){
+    nav{
+        margin-left: -10%;
+    }
+}
+
+
+@media screen and (max-width: 1010px){
+    .nav .nav_link {
+        display: none;
+    }
+    .nav .header_btn{
+        display: none;
+    }
+    
+    .nav .icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .nav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .nav.responsive{
+        height: 390px;
+    }
+    .nav.responsive .icon{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .nav.responsive a .header_btn{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .easy__block1{
+        margin-bottom: 20px;
+    }
+    .stey__blog1{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 770px){
+    .easy{
+        margin-top: 50px;
+        /* justify-content: center; */
+    }
+.easy__blocks{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+
+}
+.easy__block1{
+    margin-bottom: 20px;
+}
+.stey__blog1{
+    margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 575px){
+
+    .easy{
+        margin-top: 50px;
+        justify-content: center;
+    }
+.easy__blocks{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+
+}
+.easy__block1{
+   margin-bottom: 20px;
+}
+
+.features___blocks{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+}
+.tech__blocks{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+}
+
+.stey{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.stey__blogs{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+}
+
+.stey__blog1{
+    margin-bottom: 20px;
+}
+
+.contact{
+    margin-top: 50px;
+    justify-content: center;
+}
+.contact__blogs{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+}
+.contact__blog2{
+    max-width: 400px;
+}
+
+.end{
+    margin-top: 50px;
+    justify-content: center;
+}
+.end__blogs{
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+}
+
+    .home__txt__title{
+        font-size: 32px;
+    } 
+    .home__txt__ppgh{
+        font-size: 12px;
+    }
+}
